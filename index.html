@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css" />
+ 
+    <script src="main.js" defer></script>
+    <title>Home | Maraike Zauritz</title>
+</head>
+<body>
+
+    <div class="backdrop"></div>
+    <button id="side-menu-toggle">  <i class="fa fa-bars"></i></button>
+    
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__item-list">
+        <li class="mobile-nav__item">
+          <a class="<%= path === '/products' ? 'active' : '' %>"
+             href="#">Home</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="<%= path === '/about' ? 'active' : '' %>" href="#">Praxis</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="<%= path === '/' ? 'active' : '' %>" href="#">Leistungen</a>
+        </li>
+       </ul>
+    </nav>
+
+     
+
+    <div class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Praxis</a></li>
+        <li><a href="#">Leistungen</a></li>
+      </ul>
+  </div>
+
+
+         
+  
+
+    <div class="content"> 
+   
+      <div class="info">
+        <div>
+            <img id="logo" src="logo.png" alt="">
+          </div>
+          <div>
+            <p><i class="fa-regular fa-clock"></i> Mo / Mi / Do / Fr   08:00 - 16:30 h, Di   08:00 - 18:00 h</p>
+            <p> <i class="fa-solid fa-location-dot"></i> Gewerbestraße 9 B, 79219 Staufen im Breisgau - Staufen</p> 
+          </div>
+          <div>
+            <p><i class="fa-solid fa-phone"></i> 07633 - 924 88 01</p>
+            <p><i class="fa-regular fa-envelope"></i> info@maraike-zauritz.de</p>
+          </div>
+      </div>
+
+
+
+      <div class="vita">
+       
+        <figure class="snip1376 box">
+          <div>
+            <img src="img.jpg" alt="sample17" />
+          </div>
+          <figcaption>
+            
+            <ul>
+              <li>sdf</li>
+              <li>sdf</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni aspernatur laudantium velit, soluta reprehenderit at nesciunt ullam dolores quae ad ipsum blanditiis ut atque animi modi nobis. Consequatur, voluptate!</li>
+            </ul>
+        
+            <h2>Maraike Zauritz</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quis voluptatum cupiditate labore praesentium quod! Tempora accusantium doloremque neque earum impedit autem harum illo quibusdam fugiat, rem animi molestiae repudiandae! I'm looking for something that can deliver a 50-pound payload of snow on a small feminine target. Can you suggest something? Hello? </p>
+            
+          </figcaption>
+        </figure>
+      </div>
+
+    
+  
+      <div id="map">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2675.476621600587!2d7.716340076756591!3d47.88845956847088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791061d0e9d53cd%3A0x8549ab5df68be45e!2sMaraike%20Zauritz!5e0!3m2!1sde!2sde!4v1691064961378!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     
+    </div>
+   
+   
+    <footer>
+      <div class="inline">&#169; <b> 2023 </b>Maraike Zauritz | <a href="/impressum.html"><b>impressum</b></a></div>
+    </footer>
+
+
+
+
+
+</body>
+</html>
